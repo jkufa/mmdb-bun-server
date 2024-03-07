@@ -6,7 +6,10 @@
     "serve": "bun index.ts"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "bun-types": "latest",
+    "eslint": "^8.57.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
