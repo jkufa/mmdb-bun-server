@@ -1,0 +1,17 @@
+{
+  "name": "mmdb-bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "serve": "bun index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "maxmind": "^4.3.18"
+  }
+}
